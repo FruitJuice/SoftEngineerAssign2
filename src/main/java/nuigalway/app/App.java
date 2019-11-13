@@ -10,15 +10,12 @@ import java.util.ArrayList;
  */
 public class App 
 {
-
-    public static Student student1;
-
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
 
         //Create students
-        student1 = new Student("Mark Higgan", 18, "12/11/2002", 1);
+        Student student1 = new Student("Mark Higgan", 18, "12/11/2002", 1);
         Student student2 = new Student("Joanne Kelly", 20, "09/7/2001",2);
 
         //Add students to list
@@ -39,8 +36,6 @@ public class App
         DateTime end = new DateTime("2019-10-15T18:00:00.0-08:00");
 
         Programme year = new Programme("Psych", modules, students, start, end);
-
-        //Result result = JUnitCore.runClasses();
-
     }
+
 }
